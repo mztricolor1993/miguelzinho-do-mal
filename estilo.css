@@ -1,15 +1,37 @@
 body{
-    background-color: aqua;
-    color: black;
+    background-color: rgb(98, 0, 255);
+    color: white;
 }
 .cabecalho{
-    background: linear-gradient(to right, aqua 30%, black 30%);
+    background: linear-gradient(to right, #b539e6 30%, rgb(71, 40, 70) 30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cabecalho img{
     text-align: center;
+    width: 50%;
+
+}
+.cabecalho hl{
+    margin-left: 30%;
+
+}
+
+.conteudo01{
+    display flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #23284e;
+    font-size: 24px;
+}
+
+.conteudo01-img{
     width: 40%;
 }
-.cabecalho h1{
-    margin-left: 30%;
+.conteudo01-direito{
+    background-color: rgb(71, 47, 78);
+    padding: 32px;
 }
